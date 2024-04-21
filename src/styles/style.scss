@@ -1,0 +1,44 @@
+@import './blocks/page';
+@import './utils/variables';
+@import './utils/mixin';
+@import './blocks/header';
+@import './blocks/top-bar';
+@import './blocks/bottom-bar';
+@import './blocks/menu';
+@import './blocks/nav';
+@import './blocks/recommended';
+@import './blocks/main';
+@import './blocks/categories';
+@import './blocks/button';
+@import './blocks/how-to-buy';
+@import './blocks/contacts';
+
+
+.theme-switcher {
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 50px;
+  background-color: black;
+  padding: 5px;
+}
+
+.theme-switcher::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+
+  transition: transform 0.3s;
+}
+
+.switcher--dark {
+  background-color: white;
+}
+
+.switcher--dark::after {
+    background-color: black;
+    transform: translateX(150%);
+}
