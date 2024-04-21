@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Frontend boilerplate based on gulp",
   "scripts": {
+    "add-assets": "parcel build ./src/image_js/* --no-cache",
     "init": "mate-scripts init",
     "start": "mate-scripts start",
     "lint": "mate-scripts lint",
