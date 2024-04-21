@@ -10,17 +10,17 @@ const topBarIconClose = page.querySelector('.top-bar__icon-close');
 const headerLogo = page.querySelector('.header__logo');
 const menuLogo = document.querySelector('.menu .header__logo');
 
-const phoneIconDark = '/src/image/Icon-Phone-call-dark.png';
-const phoneIconLight = '/src/image/Icon-Phone-call.png';
+const phoneIconDark = 'Icon-Phone-call-dark.png';
+const phoneIconLight = 'Icon-Phone-call.png';
 
-const burgerIconDark = '/src/image/Icon-Burger-menu-dark.png';
-const burgerIconLight = '/src/image/Icon-Burger-menu.png';
+const burgerIconDark = 'Icon-Burger-menu-dark.png';
+const burgerIconLight = 'Icon-Burger-menu.png';
 
-const closeIconDark = '/src/image/Icon-Close-dark.png';
-const closeIconLight = '/src/image/Icon-Close.png';
+const closeIconDark = 'Icon-Close-dark.png';
+const closeIconLight = 'Icon-Close.png';
 
-const headerLogoDark = '/src/image/header-logo-dark.png';
-const headerLogoLight = '/src/image/header-logo.png';
+const headerLogoDark = 'header-logo-dark.png';
+const headerLogoLight = 'header-logo.png';
 
 switcher.addEventListener('click', () => {
   if(page.classList.contains('page--dark')) {
